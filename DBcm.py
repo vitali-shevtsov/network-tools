@@ -32,4 +32,3 @@ with UseDatabase() as cursor:
 	       AND value4=%s""")
     a,b,c,d = 1,2,3,4
     cursor.execute(_SQL, (a,b,c,d))
-
